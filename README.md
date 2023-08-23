@@ -48,6 +48,8 @@ As mentioned above this phase was totally focused on deep diving and studying ab
 This phase was completely focused on creating the `krew` plugin for `kubectl` that would eventually integrate `kubectl` with `armadactl` and users would be able to use features of `armadactl` through `kubectl`.
 I was able to create the plugin for `krew` but unfortunately `krew` community didn't recognize the plugin so we had to self-host the plugin in armada [`main`](https://github.com/armadaproject/armada) repository.
 
+#### Pull Requests
+
 <b>Merged</b>
 - Self-hosting `armadactl` plugin in armada : [#2850](https://github.com/armadaproject/armada/pull/2850)
 - Adding documentation on how one can use `armadactl` with `kubectl` : [#2897](https://github.com/armadaproject/armada/pull/2897)
