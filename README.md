@@ -42,7 +42,7 @@ As mentioned above this phase was totally focused on deep diving and studying`ar
 - Removal of example structure block from `armadactl` : [#2551](https://github.com/armadaproject/armada/pull/2551)
 
 <b>Under Review</b>
-- Addition of `armadctl` on Armada Website : [#2596](https://github.com/armadaproject/armada/pull/2596)
+- Addition of `armadactl` on Armada Website : [#2596](https://github.com/armadaproject/armada/pull/2596)
 
 #### Second Phase
 This phase was completely focused on creating the `krew` plugin for `kubectl` that would eventually integrate `kubectl` with `armadactl` and users would be able to use features of `armadactl` through `kubectl`.
