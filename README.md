@@ -5,7 +5,7 @@ During this summer, as part of Google Summer of Code, I contributed to armada, a
 
 
 ## GSoC Project
-### What is armada? 
+### What is Armada? 
 Armada is a multi-Kubernetes cluster batch job scheduler. Armada is designed to address the following issues:
 
 - A single Kubernetes cluster can not be scaled indefinitely, and managing very large Kubernetes clusters is [challenging](https://openai.com/research/scaling-kubernetes-to-7500-nodes). Hence, Armada is a multi-cluster scheduler built on top of several Kubernetes clusters. 
