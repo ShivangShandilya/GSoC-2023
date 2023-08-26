@@ -13,12 +13,12 @@ Armada is a multi-Kubernetes cluster batch job scheduler. Armada is designed to 
 
 ### Project Details
 
-As a Google Summer Of Code 2023 mentee, I worked on the [Armada Project](https://github.com/armadaproject/armada) under my mentor [Kevin Hannon](https://github.com/kannon92) to implement kubectl plugin for armada.This included in-depth study of [`armadactl`](https://github.com/armadaproject/armada/tree/master/cmd/armadactl), solving issues with `armadactl` that could hinder the work with project and then creating a [`krew`](https://krew.sigs.k8s.io/) plugin for `armadactl` so that users can use armadactl alongside kubectl. Unfortunately the plugin was not recognized by the `krew` community so instead we self-hosted the `armadactl` plugin to make it work with `krew`.
+As a Google Summer Of Code 2023 mentee, I worked on the [Armada Project](https://github.com/armadaproject/armada) under my mentor [Kevin Hannon](https://github.com/kannon92) to implement kubectl plugin for armada. This included in-depth study of [`armadactl`](https://github.com/armadaproject/armada/tree/master/cmd/armadactl), solving issues with `armadactl` that could hinder the work with project and then creating a [`krew`](https://krew.sigs.k8s.io/) plugin for `armadactl` so that users can use armadactl alongside kubectl. Unfortunately, the plugin was not recognized by the `krew` community so instead we self-hosted the `armadactl` plugin to make it work with `krew`.
 
 ### Why did I choose this project?
 
 I was looking for a GSoC project that would fit my skill set. I bookmarked several projects, did some research, and gathered information about them. 
-I was also contributing to Armada sinch February 2023.Since I began contributing, the Armada community has been incredibly supportive, which made me more eager to give back to the community.
+I was also contributing to Armada since February 2023. Since I began contributing, the Armada community has been incredibly supportive, which made me more eager to give back to the community.
 
 ### Contributions
 
@@ -33,7 +33,7 @@ I divided my project into two major phases. These two phases were also mentioned
 - Second Phase: Creating the plugin for `kubectl`
 
 #### First Phase
-As mentioned above this phase was totally focused on deep diving and studying about `armadactl`. During this phase I worked on issues that were already available and opened up some more if I encountered any issues along the way.
+As mentioned above this phase was totally focused on deep diving and studying`armadactl`. During this phase, I worked on issues that were already available and opened up some more if I encountered any issues along the way.
 
 #### Pull Requests
 
